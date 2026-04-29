@@ -73,8 +73,6 @@ if ($gpuIsGood) {
     Write-Host "Detected GPU: $gpuName" -ForegroundColor Red
     Write-Host "Your GPU may be a bit weak. Some processes may be slower." -ForegroundColor Yellow
 }
-Write-ColoredLine "=== Credits ===" Yellow
-Write-ColoredLine "Made by SOL" White
 Write-Host ""
 Wait-ForEnter -Message "Press Enter to Continue"
 Clear-Host
